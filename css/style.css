@@ -14,3 +14,16 @@
 .everything_is_right>h3{
 	margin:3px;
 }
+
+.answer{
+    padding: 3px 5px;
+}
+.correct_answer{
+    padding: 3px 5px;
+    background-color: #abf403;
+}
+
+.wrong_answer{
+    padding: 3px 5px;
+    background-color: #d31527;
+}

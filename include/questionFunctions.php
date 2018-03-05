@@ -75,11 +75,11 @@
 
     function displayQuestion($questionNum, $value1,$modifier1,$value2){
 	    echo "<div class='question_single_container'>";
-        echo "    <div><input type='hidden' value='" . $value1 . "' name='question".$questionNum."value1'> ".$value1." </div>";
-        echo "    <div><input type='hidden' value='".$modifier1."' name='question".$questionNum."modifier1'> ".$modifier1." </div>";
-        echo "    <div><input type='hidden' value='" . $value2 . "' name='question".$questionNum."value2'> ".$value2." </div>";
+        echo "    <div><input type='hidden'  value='" . $value1 . "' class='value'> ".$value1." </div>";
+        echo "    <div><input type='hidden' value='".$modifier1."' class='modifier'> ".$modifier1." </div>";
+        echo "    <div><input type='hidden' value='" . $value2 . "' class='value'> ".$value2." </div>";
         echo "    <div> = </div>";
-        echo "    <div><input class='answer' type='number' name='question".$questionNum."answer'></div>";
+        echo "    <div><input type='number' class='answer'></div>";
         echo "</div>";
     }
 

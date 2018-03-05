@@ -4,11 +4,12 @@ include_once "include/questionFunctions.php";
 getPageStart();
 ?>
 <div>
-    <form>
-        <?php
-            getQuestions();
-        ?>
-    </form>
+    <script type="text/javascript" src="js/question.js"></script>
+    <?php
+    getQuestions();
+    ?>
+    <input type="button" onclick="checkAnswers()" value="Ckeck je antwoorden"/>
+
 </div>
 
 <?php
