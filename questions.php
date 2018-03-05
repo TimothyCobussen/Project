@@ -8,7 +8,7 @@ getPageStart();
         <div class="questions_container">
             <?php
                 for($i=0;$i<10;$i++){
-                    getPositiveSumQuestion($i,0);
+                    getPositiveSubtractionQuestion($i,0);
                 }
 
             ?>
