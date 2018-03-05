@@ -5,15 +5,9 @@ getPageStart();
 ?>
 <div>
     <form>
-        <div class="questions_container">
-            <?php
-                for($i=0;$i<10;$i++){
-                    getPositiveSubtractionQuestion($i,0);
-                }
-
-            ?>
-
-        </div>
+        <?php
+            getQuestions();
+        ?>
     </form>
 </div>
 
