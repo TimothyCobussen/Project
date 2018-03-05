@@ -6,3 +6,11 @@
 .question_single_container>div{
     padding: 0 5px;
 }
+
+.everything_is_right>h4{
+	margin:2px;
+}
+
+.everything_is_right>h3{
+	margin:3px;
+}

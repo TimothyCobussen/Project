@@ -8,7 +8,11 @@
         echo"	</head>";
         echo"	<body>";
         echo"		<header>";
-        echo"			";
+        echo"			<div>";
+		echo"				<a href='index.php'>";
+		echo"					Home";
+		echo"				</a>";
+		echo"			</div>";
         echo"		</header>";
         echo"		<main>";
     }
