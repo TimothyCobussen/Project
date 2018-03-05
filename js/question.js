@@ -40,8 +40,8 @@ function checkAnswers() {
 
 function setAnswerResult(answerField, correct){
     if(correct){
-        answerField.className = "correct_answer";
+        answerField.parentNode.className = "correct_answer";
     } else {
-        answerField.className = "wrong_answer";
+        answerField.parentNode.className = "wrong_answer";
     }
 }

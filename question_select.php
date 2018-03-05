@@ -26,19 +26,19 @@ getPageStart();
                 <h2>Selecteer het type som</h2>
                 <div>
                     <div>
-                        <input type="radio" name='questionType' value="1">
+                        <input type="radio" name='questionType' value="1" required>
                         +
                     </div><div>
-                        <input type="radio" name='questionType' value="2">
+                        <input type="radio" name='questionType' value="2" required>
                         -
                     </div><div>
-                        <input type="radio" name='questionType' value="3">
+                        <input type="radio" name='questionType' value="3" required>
                         *
                     </div><div>
-                        <input type="radio" name='questionType' value="4">
+                        <input type="radio" name='questionType' value="4" required>
                         :
                     </div><div>
-                        <input type="radio" name='questionType' value="0">
+                        <input type="radio" name='questionType' value="0" required>
                         willekeurig
                     </div>
                 </div>

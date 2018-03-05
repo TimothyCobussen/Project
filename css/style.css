@@ -18,12 +18,12 @@
 .answer{
     padding: 3px 5px;
 }
-.correct_answer{
+.correct_answer>input{
     padding: 3px 5px;
     background-color: #abf403;
 }
 
-.wrong_answer{
+.wrong_answer>input{
     padding: 3px 5px;
     background-color: #d31527;
 }

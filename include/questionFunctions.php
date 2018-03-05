@@ -94,7 +94,7 @@
 
         if($_POST['difficulty']==null){
             $_POST['difficulty'] = 2;
-        }else if($_POST['difficulty']<>0 || $_POST['difficulty']<>1 || $_POST['difficulty']<>2){
+        }else if($_POST['difficulty']<>0 && $_POST['difficulty']<>1 && $_POST['difficulty']<>2){
             $_POST['difficulty'] = 2;
         }
 
