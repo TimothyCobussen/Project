@@ -8,15 +8,15 @@ getPageStart();
                 <h2>Selecteer de moeilijkheidsgraad</h2>
                 <div>
                     <div>
-                        <input type="radio" name="difficulty" value="0">
+                        <input type="radio" name="difficulty" value="0" required>
                         Makkelijk
                     </div>
                     <div>
-                        <input type="radio" name="difficulty" value="1">
+                        <input type="radio" name="difficulty" value="1" required>
                         Gemiddeld
                     </div>
                     <div>
-                        <input type="radio" name="difficulty" value="2">
+                        <input type="radio" name="difficulty" value="2" required>
                         Moelijk
                     </div>
                 </div>
