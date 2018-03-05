@@ -8,7 +8,7 @@ getPageStart();
     <?php
     getQuestions();
     ?>
-    <input type="button" onclick="checkAnswers()" value="Ckeck je antwoorden"/>
+    <input type="button" onclick="checkAnswers()" value="Check je antwoorden"/>
 
 </div>
 
