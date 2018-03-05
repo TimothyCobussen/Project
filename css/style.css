@@ -1,0 +1,8 @@
+.question_single_container{
+    display: flex;
+    padding: 10px;
+}
+
+.question_single_container>div{
+    padding: 0 5px;
+}
