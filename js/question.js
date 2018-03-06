@@ -28,7 +28,19 @@ function checkAnswers() {
                 case ":":
                     setAnswerResult(
                         questions[i].getElementsByClassName("answer")[0],
-                        (parseInt(parseInt(questions[i].getElementsByClassName("value")[0].value) / parseInt(questions[i].getElementsByClassName("value")[1].value))) == parseInt(questions[i].getElementsByClassName("answer")[0].value)
+                        Math.floor(parseInt(questions[i].getElementsByClassName("value")[0].value) / parseInt(questions[i].getElementsByClassName("value")[1].value)) == parseInt(questions[i].getElementsByClassName("answer")[0].value)
+                    );
+                    break;
+                case "²":
+                    setAnswerResult(
+                        questions[i].getElementsByClassName("answer")[0],
+                        Math.pow(parseInt(questions[i].getElementsByClassName("value")[0].value),2) == parseInt(questions[i].getElementsByClassName("answer")[0].value)
+                    );
+                    break;
+				case "√":
+                    setAnswerResult(
+                        questions[i].getElementsByClassName("answer")[0],
+                        Math.sqrt(parseInt(questions[i].getElementsByClassName("value")[0].value)) == parseInt(questions[i].getElementsByClassName("answer")[0].value)
                     );
                     break;
             }
