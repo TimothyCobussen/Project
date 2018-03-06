@@ -27,3 +27,18 @@
     padding: 3px 5px;
     background-color: #d31527;
 }
+
+nav{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+}
+
+nav>div{
+    width:100%;
+    padding: 7px;
+    border-color:#eeeeee;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    text-align: center;
+}
