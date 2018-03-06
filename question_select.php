@@ -38,6 +38,12 @@ getPageStart();
                         <input type="radio" name='questionType' value="4" required>
                         :
                     </div><div>
+						<input type="radio" name='questionType' value="5" required>
+						√
+					</div><div>
+						<input type="radio" name='questionType' value="6" required>
+						²
+					</div><div>
                         <input type="radio" name='questionType' value="0" required>
                         willekeurig
                     </div>

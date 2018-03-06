@@ -114,7 +114,15 @@
         }else if($_POST['questionType']=='4'){
             for($i=0;$i<$_POST['numQuestions'];$i++){
                 getPositiveDivisionQuestion($i,$_POST['difficulty']);
+			}
+		}else if($_POST['questionType']=='5'){
+            for($i=0;$i<$_POST['numQuestions'];$i++){
+                getPositiveRootQuestion($i,$_POST['difficulty']);
             }
+		}else if($_POST['questionType']=='6'){
+            for($i=0;$i<$_POST['numQuestions'];$i++){
+                getPositiveSquare_RootQuestion($i,$_POST['difficulty']);
+            }	
         }else{
             for($i=0;$i<$_POST['numQuestions'];$i++){
                 getRandomQuestion($i,$_POST['difficulty']);

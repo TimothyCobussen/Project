@@ -2,8 +2,10 @@
     include_once "include/pageDefaults.php";
     getPageStart();
 ?>
-<p> als hier iets staat is dat toch een apart kopje in de pagina </p>
-
+<div>
+	<a href='question_select.php'> Vragen </a>
+	<a href='Explanation.php'> Uitleg </a>	
+</div>
 <?php
     getPageEnd();
 ?>
