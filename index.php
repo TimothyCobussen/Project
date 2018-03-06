@@ -11,7 +11,6 @@
 	</div>
 </div>
 
-
 <?php
     getPageEnd();
 ?>
