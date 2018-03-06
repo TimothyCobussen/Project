@@ -9,6 +9,7 @@
         echo"	<body>";
         echo"		<header>";
         echo"			<nav>";
+		echo"				<body style='background-color:#434acc'>"; 
         echo"			    <div>";
 		echo"				    <a href='index.php'>";
 		echo"					    Home";
