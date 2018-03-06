@@ -27,6 +27,15 @@ a:visited{
     text-decoration: #eeeeee none;
 }
 
+.Get_Started{
+	text-align: center;
+}
+
+.Get_Started>h4{
+	margin:2px;
+}
+
+
 .question_single_container{
     display: flex;
     padding: 10px;
