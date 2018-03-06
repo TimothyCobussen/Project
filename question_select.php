@@ -3,7 +3,7 @@ include_once "include/pageDefaults.php";
 getPageStart();
 ?>
     <div>
-        <form action="questions.php" method="post">
+        <form action="questions.php" method="get">
             <div>
                 <h2>Selecteer de moeilijkheidsgraad</h2>
                 <div>

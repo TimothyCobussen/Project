@@ -133,48 +133,48 @@
 
 
     function getQuestions(){
-	    if($_POST['numQuestions']==null){
-            $_POST['numQuestions'] = 10;
+	    if($_GET['numQuestions']==null){
+            $_GET['numQuestions'] = 10;
         }
-        if($_POST['numQuestions'] < 5 || $_POST['numQuestions'] > 100){
-            $_POST['numQuestions'] = 10;
+        if($_GET['numQuestions'] < 5 || $_GET['numQuestions'] > 100){
+            $_GET['numQuestions'] = 10;
         }
 
 
-        if($_POST['difficulty']==null){
-            $_POST['difficulty'] = 2;
-        }else if($_POST['difficulty']<>0 && $_POST['difficulty']<>1 && $_POST['difficulty']<>2){
-            $_POST['difficulty'] = 2;
+        if($_GET['difficulty']==null){
+            $_GET['difficulty'] = 2;
+        }else if($_GET['difficulty']<>0 && $_GET['difficulty']<>1 && $_GET['difficulty']<>2){
+            $_GET['difficulty'] = 2;
         }
 
         echo" <div class='questions_container''>";
-	    if($_POST['questionType']=='1'){
-            for($i=0;$i<$_POST['numQuestions'];$i++){
-                getPositiveAdditionQuestion($i,$_POST['difficulty']);
+	    if($_GET['questionType']=='1'){
+            for($i=0;$i<$_GET['numQuestions'];$i++){
+                getPositiveAdditionQuestion($i,$_GET['difficulty']);
             }
-        }else if($_POST['questionType']=='2'){
-            for($i=0;$i<$_POST['numQuestions'];$i++){
-                getPositiveSubtractionQuestion($i,$_POST['difficulty']);
+        }else if($_GET['questionType']=='2'){
+            for($i=0;$i<$_GET['numQuestions'];$i++){
+                getPositiveSubtractionQuestion($i,$_GET['difficulty']);
             }
-        }else if($_POST['questionType']=='3'){
-            for($i=0;$i<$_POST['numQuestions'];$i++){
-                getPositiveMultiplicationQuestion($i,$_POST['difficulty']);
+        }else if($_GET['questionType']=='3'){
+            for($i=0;$i<$_GET['numQuestions'];$i++){
+                getPositiveMultiplicationQuestion($i,$_GET['difficulty']);
             }
-        }else if($_POST['questionType']=='4'){
-            for($i=0;$i<$_POST['numQuestions'];$i++){
-                getPositiveDivisionQuestion($i,$_POST['difficulty']);
+        }else if($_GET['questionType']=='4'){
+            for($i=0;$i<$_GET['numQuestions'];$i++){
+                getPositiveDivisionQuestion($i,$_GET['difficulty']);
 			}
-        }else if($_POST['questionType']=='5'){
-            for($i=0;$i<$_POST['numQuestions'];$i++){
-                getPositivePowerQuestion($i,$_POST['difficulty']);
+        }else if($_GET['questionType']=='5'){
+            for($i=0;$i<$_GET['numQuestions'];$i++){
+                getPositivePowerQuestion($i,$_GET['difficulty']);
 			}
-        }else if($_POST['questionType']=='6'){
-            for($i=0;$i<$_POST['numQuestions'];$i++){
-                getPositiveRootQuestion($i,$_POST['difficulty']);
+        }else if($_GET['questionType']=='6'){
+            for($i=0;$i<$_GET['numQuestions'];$i++){
+                getPositiveRootQuestion($i,$_GET['difficulty']);
 			}
         }else{
-            for($i=0;$i<$_POST['numQuestions'];$i++){
-                getRandomQuestion($i,$_POST['difficulty']);
+            for($i=0;$i<$_GET['numQuestions'];$i++){
+                getRandomQuestion($i,$_GET['difficulty']);
             }
         }
 
