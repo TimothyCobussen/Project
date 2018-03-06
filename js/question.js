@@ -36,6 +36,12 @@ function checkAnswers() {
 
     }
 
+    if(document.getElementsByClassName("wrong_answer").length==0){
+        window.setTimeout(function () {
+            location.href = "All_clear.php";
+        }, 2000);
+    }
+
 }
 
 function setAnswerResult(answerField, correct){
