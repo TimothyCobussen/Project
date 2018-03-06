@@ -36,6 +36,10 @@ a:visited{
     padding: 0 5px;
 }
 
+.everything_is_right{
+	text-align: center;
+}
+
 .everything_is_right>h4{
 	margin:2px;
 }
