@@ -1,8 +1,8 @@
 <?php
 	function getPositiveAdditionQuestion($questionNum, $difficulty=0){
         if($difficulty == 2){
-            $value1 = rand(1,1000);
-            $value2 = rand(1,1000);
+            $value1 = rand(-1000,1000);
+            $value2 = rand(-1000,1000);
         }
         else if($difficulty == 1){
             $value1 = rand(1,100);
@@ -17,8 +17,8 @@
 
     function getPositiveSubtractionQuestion($questionNum, $difficulty=0){
         if($difficulty == 2){
-            $value1 = rand(1,1000);
-            $value2 = rand(1,1000);
+            $value1 = rand(-1000,1000);
+            $value2 = rand(-1000,1000);
         }
         else if($difficulty == 1){
             $value1 = rand(1,100);
@@ -33,8 +33,8 @@
 
     function getPositiveMultiplicationQuestion($questionNum, $difficulty=0){
         if($difficulty == 2){
-            $value1 = rand(1,1000);
-            $value2 = rand(1,1000);
+            $value1 = rand(-1000,1000);
+            $value2 = rand(-1000,1000);
         }
         else if($difficulty == 1){
             $value1 = rand(1,100);
@@ -49,8 +49,8 @@
 
     function getPositiveDivisionQuestion($questionNum, $difficulty=0){
         if($difficulty == 2){
-            $value2 = rand(1,1000);
-            $value1 = rand(1,1000)*$value2;
+            $value2 = rand(-1000,1000);
+            $value1 = rand(-1000,1000)*$value2;
         }
         else if($difficulty == 1){
             $value2 = rand(1,100);
@@ -65,7 +65,7 @@
 
     function getPositivePowerQuestion($questionNum, $difficulty=0){
         if($difficulty == 2){
-            $value1 = rand(1,100);
+            $value1 = rand(-100,100);
         }
         else if($difficulty == 1){
             $value1 = rand(1,20);

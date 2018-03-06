@@ -5,16 +5,15 @@
 
                 <div>
                     <div>
-                        <input type="radio" name='questionType' value="1" required>
                         √
-                    </div><div>
-                        <input type="radio" name='questionType' value="2" required>
+                    </div>
+                    <div>
                         ²
-                    </div><div>
-                        <input type="radio" name='questionType' value="3" required>
+                    </div>
+                    <div>
                         *
-                    </div><div>
-                        <input type="radio" name='questionType' value="4" required>
+                    </div>
+                    <div>
                         :
                     </div>
                 </div>
