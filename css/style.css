@@ -57,3 +57,57 @@ a:visited{
     background-color: #d31527;
 }
 
+.question_selector{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.difficulty_selector,
+.question_type_selector,
+.question_amount{
+    border: #888888 solid 2px;
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 5px auto;
+}
+
+.question_type_selector>div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.question_type_selector>div>label{
+    width: 25%;
+    height: 40px;
+    padding: 5px;
+    border: #888888 solid 2px;
+    border-radius: 5px;
+    margin: 6px auto;
+}
+
+.question_type_selector>div>label:last-child{
+    width: 90%;
+}
+
+.question_type_selector>div>label>div{
+    display: flex;
+    flex-direction: column;
+
+}
+.question_type_selector>div>label>div>input {
+    margin: 5px auto;
+}
+
+.question_amount>h2{
+    margin: 5px;
+}
+
+.question_selector>button{
+    width: 70px;
+    height: 40px;
+    margin: 15px auto;
+}
