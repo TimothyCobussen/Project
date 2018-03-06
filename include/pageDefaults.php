@@ -8,11 +8,23 @@
         echo"	</head>";
         echo"	<body>";
         echo"		<header>";
-        echo"			<div>";
-		echo"				<a href='index.php'>";
-		echo"					Home";
-		echo"				</a>";
-		echo"			</div>";
+        echo"			<nav>";
+        echo"			    <div>";
+		echo"				    <a href='index.php'>";
+		echo"					    Home";
+		echo"				    </a>";
+		echo"			    </div>";
+		echo"			    <div>";
+		echo"				    <a href='question_select.php'>";
+		echo"					    Vragen";
+		echo"				    </a>";
+		echo"			    </div>";
+		echo"			    <div>";
+		echo"				    <a href='Explanation.php'>";
+		echo"					    Uitleg";
+		echo"				    </a>";
+		echo"			    </div>";
+		echo"			</nav>";
         echo"		</header>";
         echo"		<main>";
     }

@@ -28,19 +28,7 @@ function checkAnswers() {
                 case ":":
                     setAnswerResult(
                         questions[i].getElementsByClassName("answer")[0],
-                        (parseInt(parseInt(questions[i].getElementsByClassName("value")[0].value) / parseInt(questions[i].getElementsByClassName("value")[1].value)) == parseInt(questions[i].getElementsByClassName("answer")[0].value)
-                    );
-                    break;
-				case "√":
-                    setAnswerResult(
-                        questions[i].getElementsByClassName("answer")[0],
-                        (parseInt(parseInt(questions[i].getElementsByClassName("value")[0].value) √ parseInt(questions[i].getElementsByClassName("value")[1].value)) == parseInt(questions[i].getElementsByClassName("answer")[0].value)
-                    );
-                    break;
-					case "²":
-                    setAnswerResult(
-                        questions[i].getElementsByClassName("answer")[0],
-                        (parseInt(parseInt(questions[i].getElementsByClassName("value")[0].value) ² parseInt(questions[i].getElementsByClassName("value")[1].value)) == parseInt(questions[i].getElementsByClassName("answer")[0].value)
+                        (parseInt(parseInt(questions[i].getElementsByClassName("value")[0].value) / parseInt(questions[i].getElementsByClassName("value")[1].value))) == parseInt(questions[i].getElementsByClassName("answer")[0].value)
                     );
                     break;
             }

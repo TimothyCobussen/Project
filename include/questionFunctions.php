@@ -49,16 +49,16 @@
 
     function getPositiveDivisionQuestion($questionNum, $difficulty=0){
         if($difficulty == 2){
-            $value1 = rand(1,1000);
             $value2 = rand(1,1000);
+            $value1 = rand(1,1000)*$value2;
         }
         else if($difficulty == 1){
-            $value1 = rand(1,100);
             $value2 = rand(1,100);
+            $value1 = rand(1,100)*$value2;
         }
         else{
-            $value1 = rand(1,20);
             $value2 = rand(1,20);
+            $value1 = rand(1,20)*$value2;
         }
         displayQuestion($questionNum, $value1, ":",$value2);
     }
@@ -115,14 +115,6 @@
             for($i=0;$i<$_POST['numQuestions'];$i++){
                 getPositiveDivisionQuestion($i,$_POST['difficulty']);
 			}
-		}else if($_POST['questionType']=='5'){
-            for($i=0;$i<$_POST['numQuestions'];$i++){
-                getPositiveRootQuestion($i,$_POST['difficulty']);
-            }
-		}else if($_POST['questionType']=='6'){
-            for($i=0;$i<$_POST['numQuestions'];$i++){
-                getPositiveSquare_RootQuestion($i,$_POST['difficulty']);
-            }	
         }else{
             for($i=0;$i<$_POST['numQuestions'];$i++){
                 getRandomQuestion($i,$_POST['difficulty']);
