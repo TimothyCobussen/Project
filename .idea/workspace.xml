@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0718258e-3bcb-49fe-8d84-d66cac811e72" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change beforePath="$PROJECT_DIR$/include/questionFunctions.php" afterPath="$PROJECT_DIR$/include/questionFunctions.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,21 +13,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="questionFunctions.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="questionFunctions.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/include/questionFunctions.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="402">
-              <caret line="93" column="24" lean-forward="true" selection-start-line="93" selection-start-column="24" selection-end-line="93" selection-end-column="24" />
+              <caret line="84" column="9" lean-forward="true" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="question.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="question.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/question.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+            <state relative-caret-position="850">
+              <caret line="50" column="66" lean-forward="true" selection-start-line="50" selection-start-column="66" selection-end-line="50" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -114,8 +114,8 @@
         <option value="$PROJECT_DIR$/include/pageDefaults.php" />
         <option value="$PROJECT_DIR$/js/question.js" />
         <option value="$PROJECT_DIR$/question_select.php" />
-        <option value="$PROJECT_DIR$/include/questionFunctions.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/include/questionFunctions.php" />
       </list>
     </option>
   </component>
@@ -210,12 +210,12 @@
       <option name="presentableId" value="Default" />
       <updated>1520258966544</updated>
       <workItem from="1520258969851" duration="18234000" />
-      <workItem from="1520340354718" duration="7657000" />
+      <workItem from="1520340354718" duration="7978000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25891000" />
+    <option name="totallyTimeSpent" value="26212000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -342,14 +342,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/questionFunctions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="93" column="24" lean-forward="true" selection-start-line="93" selection-start-column="24" selection-end-line="93" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -358,10 +350,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/question_select.php">
+    <entry file="file://$PROJECT_DIR$/js/question.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="56" lean-forward="true" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+        <state relative-caret-position="850">
+          <caret line="50" column="66" lean-forward="true" selection-start-line="50" selection-start-column="66" selection-end-line="50" selection-end-column="66" />
           <folding />
         </state>
       </provider>
@@ -374,10 +366,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/question.js">
+    <entry file="file://$PROJECT_DIR$/question_select.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+        <state relative-caret-position="119">
+          <caret line="7" column="56" lean-forward="true" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/questionFunctions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="84" column="9" lean-forward="true" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
           <folding />
         </state>
       </provider>

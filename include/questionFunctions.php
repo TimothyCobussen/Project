@@ -91,7 +91,7 @@
     }
 
     function getRandomQuestion($questionNum, $difficulty=0){
-        switch (rand(1,4)){
+        switch (rand(1,6)){
             case 1: getPositiveAdditionQuestion($questionNum, $difficulty); break;
             case 2: getPositiveSubtractionQuestion($questionNum, $difficulty); break;
             case 3: getPositiveMultiplicationQuestion($questionNum, $difficulty); break;
