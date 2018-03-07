@@ -10,9 +10,13 @@ nav{
     width:100%;
 }
 
-nav>div{
+nav>a>div{
     width:100%;
     padding: 7px;
+}
+
+nav>a{
+    width: 100%;
     border-color:#aaaaaa;
     border-width: 1px 1px 1px 1px;
     border-style: solid;
