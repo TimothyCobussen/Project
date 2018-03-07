@@ -50,7 +50,16 @@
     function getPositiveDivisionQuestion($questionNum, $difficulty=0){
         if($difficulty == 2){
             $value2 = rand(-1000,1000);
-            $value1 = rand(-1000,1000)*$value2;
+            while($value2==0){
+                $value2 = rand(-1000,1000);
+            }
+
+            $value1 = rand(-1000,1000);
+            while($value1==0){
+                $value1 = rand(-1000,1000);
+            }
+
+            $value1 = $value1*$value2;
         }
         else if($difficulty == 1){
             $value2 = rand(1,100);
