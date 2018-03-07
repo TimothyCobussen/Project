@@ -4,7 +4,7 @@
         echo"<html>";
         echo"	<head>";
         echo"		<title>Rekenen doe je hier</title>";
-        echo"       <link rel='stylesheet' type='text/css' href='css/style.css'";
+        echo"       <link rel='stylesheet' type='text/css' href='css/style.css'>";
         echo"	</head>";
         echo"	<body>";
         echo"		<header>";
