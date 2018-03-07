@@ -19,11 +19,6 @@
 		echo"					    Vragen";
 		echo"				    </a>";
 		echo"			    </div>";
-		echo"			    <div>";
-		echo"				    <a href='Explanation.php'>";
-		echo"					    Uitleg";
-		echo"				    </a>";
-		echo"			    </div>";
 		echo"			</nav>";
         echo"		</header>";
         echo"		<main>";
