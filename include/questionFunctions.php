@@ -147,7 +147,7 @@
             $_GET['difficulty'] = 2;
         }
 
-        echo" <div class='questions_container''>";
+        echo" <div class='questions_container'>";
 	    if($_GET['questionType']=='1'){
             for($i=0;$i<$_GET['numQuestions'];$i++){
                 getPositiveAdditionQuestion($i,$_GET['difficulty']);
@@ -177,7 +177,7 @@
                 getRandomQuestion($i,$_GET['difficulty']);
             }
         }
-
+        echo "<input type='button' onclick='checkAnswers()' value='Check je antwoorden'/>";
         echo "</div>";
     }
 
