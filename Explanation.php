@@ -2,22 +2,14 @@
 	include_once "include/pageDefaults.php";
 	getPageStart();
 ?>
+<div>
+	<div class="addition_explanation">
+		
+		
+		
+	</div>
+</div>
 
-                <div>
-                    <div>
-                        √
-                    </div>
-                    <div>
-                        ²
-                    </div>
-                    <div>
-                        *
-                    </div>
-                    <div>
-                        :
-                    </div>
-                </div>
-				
 <?php
 	getPageEnd();
 ?>
